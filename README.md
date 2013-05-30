@@ -17,7 +17,9 @@ transport mechanism.
 i.e.
 
 Current Cost Device -> Serial -> EventEmitter -> EventConsumer -> Redis Publish -> Redis Subscribe -> local processing.
+
 vs
+
 Current Cost Device -> Serial -> EventEmitter -> EventConsumer -> Redis Publish -> NETWORK -> Redis Subscribe -> local processing.
 
 Usage:
