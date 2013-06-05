@@ -1,0 +1,1 @@
+{"redisConfig":{"host":"192.168.1.36","port":6379,"db":1,"socket_nodelay":true},"meterReadings":{"1":0,"2":1.526,"9":17991.998000000007},"EventEmitter2Config":{"wildcard":false},"mapping":{"host":1,"device":1},"reportOnZeroWatts":true}

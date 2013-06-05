@@ -1,0 +1,42 @@
+{ "name":           "CCEE2REDISPUB",
+  "version":        "0.9.1beta",
+  "description":    "Broadcast CCXMLeventEmitter via Redis Publishing channels",
+  "homepage":       "https://github.com/TheDistractor/CCEE2REDISPUB",
+  "author":         "Lightbulb <lightbulb@laughlinez.com>",
+  "contributors": [
+    "Lightbulb <lightbulb@laughlinez.com>"
+  ],
+  "keywords": [
+    "currentcost", "current cost", "eventemitter", "nodejs", "cc128", "envir", "redis"
+  ],
+  "main":           "main.js",
+  "scripts": {
+    "build":        "coffee --bare --compile --lint --output . *.coffee",
+    "prepublish":   "coffee --bare --compile --lint --output . *.coffee",
+    "postpublish":  "ls",
+    "test":         "./node_modules/.bin/mocha"
+  },
+  "engines": {
+    "node":         ">= 0.8.0"
+  },
+  "dependencies": {
+    "ccxmleventemitter":            "~0.9.0",
+    "redis":                  "~0.8.3"
+  },
+  "devDependencies": {
+    "coffee-script":          "~1.6.2",
+    "mocha": "~1.9.0"
+  },
+  "repository": {
+    "type":   "git",
+    "url":    "https://github.com/TheDistractor/CCEE2REDISPUB"
+  },
+  "bugs": {
+    "url":    "https://github.com/TheDistractor/CCEE2REDISPUB"
+  },
+  "licenses": [
+    { "type": "GPL",
+      "url":  "https://github.com/TheDistractor/CCEE2REDISPUB/blob/master/GPL3-LICENSE"
+    }
+  ]
+}
